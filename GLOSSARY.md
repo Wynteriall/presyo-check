@@ -43,3 +43,19 @@ _Avoid_: Price entry, Listing, Quote
 **Curator**:
 A trusted maintainer responsible for seeding and refreshing PresyoCheck's product catalog and Price Observations, distinct from an unauthenticated Shopper.
 _Avoid_: Admin, Moderator, Editor
+
+**Substitute Group**:
+A curated set of comparable grocery products across national brands and private labels that satisfy the same everyday shopping need (such as chocolate spread or 1L cooking oil).
+_Avoid_: Category, Dupe list, Equivalence set
+
+**Shopping List**:
+A Shopper's active collection of specific products and generic shopping needs used for cross-chain basket planning.
+_Avoid_: Cart, Wishlist, Basket
+
+**Basket Comparison**:
+The computed side-by-side total of a Shopping List across Retail Chains, contrasting the best 1-stop Retail Chain against a practical 2-store split under the Shopper's active Membership Gate and substitute preferences.
+_Avoid_: Checkout total, Price estimate
+
+**Price Flag**:
+A Shopper-submitted signal indicating that a Price Observation appears outdated in-store, used to prioritize Curator refresh queues without automatically modifying live prices.
+_Avoid_: Dispute, Report, Price edit
