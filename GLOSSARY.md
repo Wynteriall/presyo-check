@@ -23,3 +23,23 @@ _Avoid_: Promo price, Sale price
 **Membership Gate**:
 A paid club membership or loyalty-card requirement (such as a Landers/S&R annual fee or SMAC card) needed to qualify for a listed price or deal.
 _Avoid_: Paywall, Discount tier
+
+**Retail Chain**:
+A grocery brand banner compared in PresyoCheck (such as SM Markets, Puregold, Dali, Landers, or S&R).
+_Avoid_: Store, Merchant, Vendor, Supermarket (when including clubs or discounters)
+
+**Store Branch**:
+A specific physical outlet of a Retail Chain (such as Savemore Imus or Puregold Shaw Blvd) used for price provenance and proximity.
+_Avoid_: Location, Outlet, Shop
+
+**Pricing Zone**:
+A geographic market sharing a common baseline price rollup (such as Mega Manila), distinct from administrative city boundaries.
+_Avoid_: Region, Area, City (when referring to price scope)
+
+**Price Observation**:
+A timestamped, provenance-tagged record of a product's walk-in Shelf Price at a Retail Chain, optionally tied to a specific Store Branch within a Pricing Zone.
+_Avoid_: Price entry, Listing, Quote
+
+**Curator**:
+A trusted maintainer responsible for seeding and refreshing PresyoCheck's product catalog and Price Observations, distinct from an unauthenticated Shopper.
+_Avoid_: Admin, Moderator, Editor
