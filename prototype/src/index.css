@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body,
+  #root {
+    min-height: 100%;
+    margin: 0;
+  }
+}
+
+.font-condensed {
+  font-family: 'Barlow Condensed', system-ui, -apple-system, sans-serif;
+}
+
+.font-jakarta {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+.font-grotesk {
+  font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Subtle diagonal hatching for opted-out Membership Gate strips */
+.bg-member-hatch {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgba(29, 78, 216, 0.08),
+    rgba(29, 78, 216, 0.08) 6px,
+    transparent 6px,
+    transparent 12px
+  );
+}
+
+/* Hide scrollbars cleanly on horizontal chip rails */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
