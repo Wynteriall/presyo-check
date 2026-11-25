@@ -59,3 +59,12 @@ _Avoid_: Checkout total, Price estimate
 **Price Flag**:
 A Shopper-submitted signal indicating that a Price Observation appears outdated in-store, used to prioritize Curator refresh queues without automatically modifying live prices.
 _Avoid_: Dispute, Report, Price edit
+
+**Product**:
+A distinct sellable grocery SKU (brand, variant, and net pack quantity/measure) assigned to one primary Substitute Group and an optional DTI SRP benchmark.
+_Avoid_: Item, Article, Goods
+
+**DTI SRP**:
+An optional government-published Suggested Retail Price benchmark attached to a Product for Shopper value context and Curator data-entry validation, distinct from walk-in Shelf Price.
+_Avoid_: Official price, Price cap
+
